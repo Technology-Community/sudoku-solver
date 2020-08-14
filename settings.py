@@ -10,7 +10,9 @@ tensorflow.compat.v1.logging.set_verbosity(tensorflow.compat.v1.logging.ERROR)
 
 # CAMERA
 
-CAMERA_PORT = 1
+CAMERA_PORT = 0
+# use 1 for webcam
+# use 0 for droidcam
 
 # PATHS
 my_dataset_path = "/media/hdd_linux/DataSet/Mine/"
